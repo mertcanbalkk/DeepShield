@@ -1,0 +1,10 @@
+# Public-friendly baseline. Reverse proxies still need TLS, authentication,
+# request throttling, resource quotas and privacy protections.
+[server]
+maxUploadSize = 35
+maxMessageSize = 35
+enableXsrfProtection = true
+enableCORS = true
+
+[browser]
+gatherUsageStats = false

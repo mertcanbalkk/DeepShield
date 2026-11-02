@@ -1,0 +1,46 @@
+# Python/runtime
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+# User-provided and trained model artifacts
+outputs/
+datasets/
+models/
+model_weights/
+*.pt
+*.pth
+*.pth.tar
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.zip
+*.tar
+*.7z
+# App-generated reports / debugging / user uploads
+uploads/
+temp/
+logs/
+reports/
+trufor_debug.txt
+*debug.log
+*.npz
+*.npy
+# Local environment
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+# Backups from previous local updates
+yedek_v*/
+backup_*/
